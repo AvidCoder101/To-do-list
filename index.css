@@ -19,6 +19,12 @@ body {
     font-size: 70px;
 }
 
+.p {
+    font-size: 27px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 a,li {
     text-decoration: none;
     list-style: none;
@@ -26,7 +32,7 @@ a,li {
 
 .container {
     position: relative;
-    top: 20vh;
+    top: 10vh;
     max-width: 300px;
     margin: auto;
 }
