@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Acme";
+    height: 95vh;
+    background: url('https://cdn.pixabay.com/photo/2021/07/09/13/51/notes-6399119_960_720.jpg') 
+    center/cover
+    no-repeat;
+}
+
+.h1 {
+    font-family: 'Acme';
+    margin-top: 10px;
+    text-align: center;
+    font-size: 70px;
+}
+
+a,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    top: 20vh;
+    max-width: 300px;
+    margin: auto;
+}
+
+#enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #04a1bf;
+    transition: all 0.5s ease;
+    width: 50px;
+    height: 50px;
+}
+
+#enter:hover{
+    background: #04a1bf;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+
+}
+
+li {
+    padding: 10px 20px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid #04a1bf;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+    letter-spacing: 2px;
+    margin-left: -40px;
+    background-color: mediumaquamarine;
+    margin-right: 11px;
+}
+
+li:hover{
+    background: #264247;
+    color: white;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #264247;
+    font-weight: 900;
+    outline: none;
+}
+
+li:hover > button{
+    color: #fff;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 3px;
+    max-width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 7cm;
+    height: 1cm;
+    margin-left: -40px;
+}
+
+.done {
+    color: #666;
+    text-decoration-line: line-through;
+}
+
+.delete {
+    transform: scale(0);
+}
+
