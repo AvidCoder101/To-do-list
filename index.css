@@ -50,6 +50,7 @@ a,li {
 #enter:hover{
     background: #04a1bf;
     color: white;
+    cursor: pointer;
 }
 
 ul {
