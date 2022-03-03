@@ -33,18 +33,17 @@ function listElement() {
 
 // listElement();
 
-function addTasksWhenClick() {
+function addTask() {
   if (lengthOfInput() > 0) {
     listElement();
     input.value = "";
   }
 }
 
-enterButton.onclick = () => addTasksWhenClick();
+enterButton.onclick = () => addTask();
 
 input.addEventListener("keypress", () => {
-  if (lengthOfInput() > 0 && event.which === 13) {
-    listElement();
-    input.value = "";
+  if (event.which === 13) {
+    addTask();
   }
 });
